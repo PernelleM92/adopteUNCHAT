@@ -1,0 +1,53 @@
+/* feuille de style pour index-correction.html */
+/* COULEURS EN ROOT  */
+:root {
+    --navbar : #061339;
+    --titreh1 : #FFF;
+    --autres-titres : #2F4073;
+	--pied-page : #061339;
+    --tête-chat-défaut : #7885A5;
+    --tête-chat-hover : #061339;
+    --rangee-1 : #f1f1f1;
+    --rangee-2 : #ddd;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merienda', cursive;
+}
+/* en-tête */
+header a {
+    font-family: 'Merienda', cursive;
+}
+nav {
+    background-color: var(--navbar);
+    height: 50px;
+}
+nav a {
+    color: var(--titreh1);
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+nav a:hover {
+    color: var(--titreh1);
+    text-decoration: none;
+}
+.jumbotron {
+    background-image: url(../img/background.jpg);
+    height: 220px;
+    color: var(--titreh1);
+    text-shadow: 2px 0 3px #333;
+}
+#section-2 {
+    background-color: var(--rangee-2);
+}
+#teteChat {
+    background-color: var(--tête-chat-défaut);
+}
+#teteChat:hover {
+    background-color: var(--tête-chat-hover);
+}
+/* style pour transformer les indicateurs du carousel en point  */
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+ }
